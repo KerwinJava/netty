@@ -300,7 +300,7 @@ abstract class DnsResolveContext<T> {
     }
 
     private String cnameResolveFromCacheLoop(DnsCnameCache cnameCache, String first, String mapping) {
-        // Detect loops by advance only every other iteration. This is the same concepts as used in guava
+        // Detect loops by advance only every other iteration. This is the same concept as used in guava
         String otherMapping = first;
         boolean advance = false;
 
